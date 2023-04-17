@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <title>Login - Tarefa 03</title>
+  </head>
+  <body>
+    <main id="mainBody">
+        <form id="formBody">
+            <div id="textInputs">
+                <input type="text" class="inputBox" placeholder="E-mail"/>
+                <input type="password" class="inputBox" placeholder="Password"/>
+            </div>
+            <div id="choiceInputs">
+                <div id="remember">
+                    <input type="checkbox" id="checkInput" onChange="window.alert('You shall be remembered')">
+                        <div style="font-size: 1.2rem;">Remember me</div>
+                    </input>
+                </div>
+                <a href="index.html" class="hyperLink">Forgot Password?</a>
+            </div>
+            <div id="logSignIn">
+                <input type="button" id="logIn" value="Login" onClick="window.alert('Login attempt')"/>
+                <a href="index.html" class="hyperLink" id="signIn">Register for an account?</a>
+            </div>
+        </form>
+    </main>
+  </body>
+</html>
